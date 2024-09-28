@@ -1,0 +1,43 @@
+.best-sellers {
+    text-align: center;
+    padding: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    font-size: 0rem;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  
+  .product-card {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  .product-card h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .product-card p{
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  
